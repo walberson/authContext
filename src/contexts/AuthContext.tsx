@@ -5,6 +5,8 @@ type AuthProviderProps = {
 };
 type AuthContextData = {
   isAuthenticated: boolean;
+  name: string;
+  setName: (value: string) => void;
   setIsAuthenticated: (value: boolean) => void;
 };
 
